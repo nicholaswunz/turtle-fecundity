@@ -1,0 +1,115 @@
+author name,paper ID,species,year,locality,country,egg diameter,egg mass,hatchling length,hatchling mass,clutch size,female length
+Hirth,1,Caretta_caretta,,Buritaca Beach,Colombia,43.3,38.4,45,,107,87.9
+Hirth,1,Caretta_caretta,,Cape Kennedy,Florida,42.1,,45.2,,112,92.2
+Hirth,1,Caretta_caretta,,Masirah Island,Oman,42.1,,,,101,93.6
+Hirth,1,Caretta_caretta,,Tongaland,South Africa,40.9,,44.7,21,114,86.4
+Hirth,1,Caretta_caretta,,Cape Romain,USA,41.5,34.9,45,21.2,118.4,92.7
+Hirth,1,Caretta_caretta,,Hutchinson Island,USA,,,45.2,,120,90.3
+Hirth,1,Chelonia_mydas,,,Ascension Island,54.6,,51.7,,115.5,108.1
+Hirth,1,Chelonia_mydas,,Heron Island,Australia,46,51.6,56,21,110,102.4
+Hirth,1,Chelonia_mydas,,,Bonin Island,46,,,,103.8,
+Hirth,1,Chelonia_mydas,,Naranjo reach,Costa Rica,,,51.2,,87,82.9
+Hirth,1,Chelonia_mydas,,Tortuguero,Costa Rica,45.7,,49.7,,110,100.1
+Hirth,1,Chelonia_mydas,,Galapagos,Ecuador,,,46.2,,81,81.3
+Hirth,1,Chelonia_mydas,,Chell beach,Guyana,47,,,,120,103.9
+Hirth,1,Chelonia_mydas,,Pangumbahan,Indonesia,45,,,,107,
+Hirth,1,Chelonia_mydas,,Pulau Berhala,Indonesia,,,,,118,
+Hirth,1,Chelonia_mydas,,Sabah Island,Malaysia,,40.3,49,22.1,,
+Hirth,1,Chelonia_mydas,,Sarawak,Malaysia,40,36,50,21.2,104.7,97.5
+Hirth,1,Chelonia_mydas,,Hawke's beach,Pakistan,52,,50,,108.5,
+Hirth,1,Chelonia_mydas,,,Scilly Atoll,,,,,,95.6
+Hirth,1,Chelonia_mydas,,Aldabra Atoll,Seychelles,46.3,,50.1,28.2,110,100.8
+Hirth,1,Chelonia_mydas,,Europa Island,South Africa,44.7,47.9,50.9,26,147,108.9
+Hirth,1,Chelonia_mydas,,Tromelin Island,South Africa,44.6,48,48.6,23.9,124.6,104.1
+Hirth,1,Chelonia_mydas,,Sharma beach,South Yemen,42.3,44.8,46.9,23,106,96
+Hirth,1,Chelonia_mydas,,,Surinam,45,,51,,138,109
+Hirth,1,Chelonia_mydas,,Ko Kram Island,Thailand,,,,,100,90
+Hirth,1,Chelonia_mydas,,French Frigate Shoals,USA,44,50,53,31,104,92.2
+Hirth,1,Chelonia_mydas,,Aves Island,Virgin Islands,44.4,45.1,54.6,27,,107.7
+Hirth,1,Dermochelys_coriacea,,Matina,Costa Rica,53.6,,62.8,,80.5,
+Hirth,1,Dermochelys_coriacea,,Playa Naranjo,Costa Rica,51,,55,,65.6,141
+Hirth,1,Dermochelys_coriacea,,Silebache,French Guiana,,,65,,88.1,157
+Hirth,1,Dermochelys_coriacea,,Trengganu,Malaysia,,,57.3,38.2,83.5,
+Hirth,1,Dermochelys_coriacea,,Tongaland,South Africa,53.1,,58.7,,103.7,161.1
+Hirth,1,Dermochelys_coriacea,,,Sri Lanka,52,,59,,110,147
+Hirth,1,Dermochelys_coriacea,,Bigi Santi,Surinam,53,,58.3,,85,157
+Hirth,1,Dermochelys_coriacea,,Matura Bay,Trinidad,57,,67,57.5,90,152
+Hirth,1,Eretmochelys_imbricata,,Tortuguero,Costa Rica,38.3,,42.4,,161.1,83.1
+Hirth,1,Eretmochelys_imbricata,,Shelly Beach,Guyana,38,,,,158,84.1
+Hirth,1,Eretmochelys_imbricata,,Palau Island,Micronesia,34.5,23,41,13,104.5,
+Hirth,1,Eretmochelys_imbricata,,Cousin Island,Seychelles,,,,,182,85.5
+Hirth,1,Eretmochelys_imbricata,,Arnavon Island,Solomon Island,,,40,,137.5,80.5
+Hirth,1,Eretmochelys_imbricata,,Jabal Azis Island,South Yemen,40.5,,42,,81.2,69.5
+Hirth,1,Eretmochelys_imbricata,,Seil Ada Kebir,Sudan,40,,42,15.4,73.2,66
+Hirth,1,Lepidochelys_olivacea,,Playa Nancite,Costa Rica,,,,,98,63.3
+Hirth,1,Lepidochelys_olivacea,,Playa Naranjo,Costa Rica,,,,,105,65.2
+Hirth,1,Lepidochelys_olivacea,,Coromandel coast,India,,,47.7,,114.7,67
+Hirth,1,Lepidochelys_olivacea,,"Playa ""La Escobilla""",Mexico,38.8,,40.3,,100,62.9
+Hirth,1,Lepidochelys_olivacea,,,Sri Lanka,40.5,35.7,42.8,17,112.5,63.5
+Hirth,1,Lepidochelys_olivacea,,Eilanti beach,Surinam,40,,42,,116,68.5
+Hirth,1,Lepidochelys_olivacea,,Honduras coast,,37.5,,,,95,66.6
+Burskirk,2,Caretta_caretta,,Heron Island,Australia,40.4,36.5,43.3,20.9,127,95.8
+Burskirk,2,Caretta_caretta,,Cephalonia,Greece,38.8,31.4,41.4,,102.3,77
+Burskirk,2,Caretta_caretta,,Kiparissia Bay,Greece,,,,,117.7,83.1
+Burskirk,2,Caretta_caretta,,Zakynthos,Greece,37.5,,40.4,,100.2,80.4
+Burskirk,2,Caretta_caretta,,Sicily,Italy,41.1,25.5,41.8,20.1,,
+Burskirk,2,Caretta_caretta,,Gamonda Beach,Japan,,,,,,89
+Burskirk,2,Caretta_caretta,,Quintana Roo,Mexico,,,,,107.6,
+Burskirk,2,Caretta_caretta,,Dalyankoy Beach,Turkey,39,20.3,39.9,16.1,93,70
+Burskirk,2,Caretta_caretta,,Cape Lookout,USA,,,,,119.5,92.5
+Burskirk,2,Caretta_caretta,,Everglades,USA,41,,,,100,92
+Burskirk,2,Caretta_caretta,,Kiwah Island,USA,42.1,,45.2,,122.3,93.7
+Burskirk,2,Caretta_caretta,,Little Cumberland Island,USA,42,,45,,119.8,95.9
+Burskirk,2,Caretta_caretta,,Melbourne Beach,USA,,,,,113.5,92
+Burskirk,2,Caretta_caretta,,Merritt Island,USA,42.2,41.8,45.8,21,110,92.3
+Burskirk,2,Caretta_caretta,,Sanibel Island,USA,41.1,,46.7,19.6,108,90.4
+Burskirk,2,Caretta_caretta,,Topsail Island,USA,,,,,128.4,
+Burskirk,2,Chelonia_mydas,,Mayotte Island,Comoro Archipelago,44.7,53,,,121.6,110.8
+Burskirk,2,Chelonia_mydas,,Moheli Island,Comoro Archipelago,43.8,,49.2,22.7,122.4,112.3
+Burskirk,2,Chelonia_mydas,,Playa Naranjo,Costa Rica,,,51.2,,87,82.9
+Burskirk,2,Chelonia_mydas,,Shell Beach,Guyana,47,,,,122,103.9
+Burskirk,2,Chelonia_mydas,,Ogasawara,Japan,46,,,,110.7,
+Burskirk,2,Chelonia_mydas,,El Cuyo,Mexico,,,51.4,,113,108
+Burskirk,2,Chelonia_mydas,,Michoacan,Mexico,,,,,64,77
+Burskirk,2,Chelonia_mydas,,Quintana Roo,Mexico,,,,,116,
+Burskirk,2,Chelonia_mydas,,Primerias Island,Mozambique,43.8,44.9,,,115,
+Burskirk,2,Chelonia_mydas,,Marisah Island,Oman,,,,,97,93.2
+Burskirk,2,Chelonia_mydas,,Ras al hadd,Oman,,,,,103.5,97.1
+Burskirk,2,Chelonia_mydas,,Europa Island,South Africa,43.5,46.9,50.4,25.2,141.2,108.7
+Burskirk,2,Chelonia_mydas,,Bigi Santi,Surinam,45,,51,,138,109
+Burskirk,2,Chelonia_mydas,,Maziwi Island,Tanzania,42.5,,48,25,138,112.9
+Burskirk,2,Chelonia_mydas,,Melbourne Beach,USA,,,,,134,101.5
+Burskirk,2,Chelonia_mydas,,Acsension Island,,54.6,,51.7,,121.4,109.8
+Burskirk,2,Dermochelys_coriacea,,Wreck Rock,Australia,53.2,81.95,58.8,46.9,92.8,162.4
+Burskirk,2,Dermochelys_coriacea,,Playa Langosta,Costa Rica,,,,,64,149
+Burskirk,2,Dermochelys_coriacea,,Oaxaca,Mexico,53,66,,,60.1,150
+Burskirk,2,Dermochelys_coriacea,,Culebra Island,Puerto Rico,53.8,,59.3,,75.1,147
+Burskirk,2,Dermochelys_coriacea,,,Sri Lanka,52.5,72,59,33.1,97,151.5
+Burskirk,2,Dermochelys_coriacea,,St Croix,Virgin Islands,,84,,46.1,79.67,153.6
+Burskirk,2,Eretmochelys_imbricata,,Pasture Bay Beach,Antigua,,,,,150.6,
+Burskirk,2,Eretmochelys_imbricata,,Campbell Island,Australia,36,26,41.1,14.3,131.8,83.2
+Burskirk,2,Eretmochelys_imbricata,,Milman Island,Australia,38.4,25.7,39.6,,124.1,81.7
+Burskirk,2,Eretmochelys_imbricata,,Raine Island,Australia,36.4,26.4,41.2,14.6,111.7,82.4
+Burskirk,2,Eretmochelys_imbricata,,,Barbados,,,42.1,16.7,134.6,84.1
+Burskirk,2,Eretmochelys_imbricata,,El Cuyo,Mexico,,,43,,158,96
+Burskirk,2,Eretmochelys_imbricata,,Masirah Island,Oman,,,,,97,73.3
+Burskirk,2,Eretmochelys_imbricata,,Mona Island,Puerto Rico,38,,,,148.4,87.9
+Burskirk,2,Eretmochelys_imbricata,,Cousin Island,Seychelles,40,29.8,40.5,,167.5,89.5
+Burskirk,2,Eretmochelys_imbricata,,,Solomon Island,,,40,,137.5,80.5
+Burskirk,2,Eretmochelys_imbricata,,,Sri Lanka,36.7,,,,126.5,72.9
+Burskirk,2,Eretmochelys_imbricata,,Buck Island,Virgin Islands,,,,,147.2,90.1
+Burskirk,2,Lepidochelys_kempii,,Rancho Nuevo,Mexico,38.9,30,42,17.3,110,64.6
+Burskirk,2,Lepidochelys_olivacea,,Coberg Peninsula,Australia,38.8,,44,,108,
+Burskirk,2,Lepidochelys_olivacea,,Playa Nancite,Costa Rica,,,,,110.5,62.9
+Burskirk,2,Lepidochelys_olivacea,,Playa Ostional,Costa Rica,,,,,108.2,
+Burskirk,2,Lepidochelys_olivacea,,,Honduras,37.5,,,,102,66.6
+Burskirk,2,Lepidochelys_olivacea,,Hiwasa,Japan,40,,42.7,,113.7,
+Burskirk,2,Lepidochelys_olivacea,,,Mexico,38.8,,40.3,,100,62.9
+Burskirk,2,Lepidochelys_olivacea,,Marisah Island,Oman,,,41.9,,118,71.5
+Burskirk,2,Natatar_depressa,,Coberg Peninsula,Australia,52.1,64.6,,35.2,,
+Burskirk,2,Natatar_depressa,,Crab Island,Australia,50.6,72.7,59.7,39.3,53,89.3
+Burskirk,2,Natatar_depressa,,Curtis Island,Australia,51.4,,62.1,,56.2,93.9
+Burskirk,2,Natatar_depressa,,Mon Repos,Australia,52.1,77.8,61.2,43.6,50.2,92.3
+Burskirk,2,Natatar_depressa,,Peak Island,Australia,,,,,54.5,93.7
+Burskirk,2,Natatar_depressa,,Wild Duck Island,Australia,51.9,,,,51,92.4
+Burskirk,2,Natatar_depressa,,Deliverance Island,Torres Strait,50.8,,57,,51.9,88.7
