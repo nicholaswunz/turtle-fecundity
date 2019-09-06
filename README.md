@@ -13,5 +13,5 @@ Our understanding of how changing climates and anthropogenic influence alter pop
 
 | <a href="http://fvcproductions.com" target="_blank">**Nicholas Wu**</a> | <a href="http://fvcproductions.com" target="_blank">**Diego Barneche**</a> | <a href="http://fvcproductions.com" target="_blank">**Mohd Uzair Rusli**</a> |
 | :---: |:---:| :---:|
-| [![FVCproductions](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://fvcproductions.com)    | [![FVCproductions](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://fvcproductions.com) | [![FVCproductions](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://fvcproductions.com)  |
+| [![FVCproductions](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://fvcproductions.com)    | [![FVCproductions](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://fvcproductions.com) | [![FVCproductions](http://seatru.umt.edu.my/wp-content/uploads/sites/40/2019/01/dr-uzair-150x150.jpg)](http://fvcproductions.com)  |
 | <a href="http://github.com/nicholaswunz" target="_blank">`github.com/nicholaswunz`</a> | <a href="http://github.com/dbarneche" target="_blank">`github.com/dbarneche`</a> | <a href="http://github.com/fvcproductions" target="_blank">`github.com/fvcproductions`</a> |
