@@ -12,5 +12,5 @@ Our understanding of how changing climates and anthropogenic influence alter pop
 ## Contibutors
 
 | <a href="http://github.com/nicholaswunz" target="_blank">**Nicholas Wu**</a> | <a href="http://github.com/dbarneche" target="_blank">**Diego Barneche**</a> | <a href="http://seatru.umt.edu.my/?page_id=1372" target="_blank">**Mohd Uzair Rusli**</a> |
-|---|---|---|
-| [![FVCproductions](https://static.wixstatic.com/media/11c012_6eadb94bb9954ae3a5e8d78e7a58cdd6.jpg/v1/fill/w_150,h_150,al_c,q_80,usm_0.66_1.00_0.01/11c012_6eadb94bb9954ae3a5e8d78e7a58cdd6.webp)] | [![FVCproductions][(https://avatars3.githubusercontent.com/u/3580907?s=150&v=3)] | [![FVCproductions](http://seatru.umt.edu.my/wp-content/uploads/sites/40/2019/01/dr-uzair-150x150.jpg)] |
+|:---:|:---:|:---:|
+| ![](https://static.wixstatic.com/media/11c012_6eadb94bb9954ae3a5e8d78e7a58cdd6.jpg/v1/fill/w_150,h_150,al_c,q_80,usm_0.66_1.00_0.01/11c012_6eadb94bb9954ae3a5e8d78e7a58cdd6.webp) | ![][(https://avatars3.githubusercontent.com/u/3580907?s=150&v=3) | ![](http://seatru.umt.edu.my/wp-content/uploads/sites/40/2019/01/dr-uzair-150x150.jpg) |
