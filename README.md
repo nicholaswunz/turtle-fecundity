@@ -1,4 +1,4 @@
-# Sea turtle reproductive-energy output project
+# Sea turtle reproductive-energy output
 This repository contains code and data needed to reproduce the article:
 
 **Wu et al.** Larger females have disporportionately greater reproductive-energy output: body size implications for sea turtle conservation. (In prep)
