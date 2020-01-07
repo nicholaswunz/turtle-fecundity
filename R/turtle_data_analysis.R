@@ -9,6 +9,7 @@ install.packages("")
 library(ggplot2) # use ggplot2 method of plotting
 library(cowplot) # organise figures
 library(plyr) # for ddply summary stats
+library(colorspace)
 # detach("package:dplyr", unload=TRUE) # clashes with dplyr at times
 mytheme <- theme_bw() + {theme(panel.border = element_blank(), # Border around plotting area.
                                panel.grid.major = element_blank(), # Major grid lines blank
@@ -113,8 +114,6 @@ ggplot(slope.m, aes(x = log(mass), y = clutchvolume.slope, colour = species)) + 
   geom_point(size = 3) + geom_smooth(method='lm')
 
 # plot female length vs clutch
-library(viridis)
-library(colorspace)
 
 mass.plot <- ggplot(turtle.dat, aes(x = log10(pred.mass), y = log10(pred.clutch), fill = species, colour = species)) +
   mytheme + geom_point(size = 3, alpha = 0.3, show.legend = FALSE) +
@@ -248,93 +247,112 @@ str(nest.dat)
 names(nest.dat)
 
 library(ggpointdensity) # plot density in ggplot2
+library(quantreg) # plot quartile regression
 
-ggplot(nest.dat, aes(x = mass, y = sum_n.of.eggs)) + mytheme +
+nest.plot <- ggplot(nest.dat, aes(x = mass, y = sum_n.of.eggs)) + mytheme +
   geom_pointdensity(adjust = 4, size = 3) +
-  stat_smooth(method = "lm", col = "black") +
-  ylab("Total clutch size per year") + xlab("Predicted body mass (kg)")
+  stat_smooth(method = "lm", size = 2, col = "#14505C", fill = "#C7E5BE") +
+  #geom_quantile(quantiles = c(0.5, 0.95), size = 2, col = "#14505C", fill = "#C7E5BE") +
+  ylab(expression(paste("Fecundity (total clutch yr"^"-1"*")"))) + 
+  xlab("Female mass, Mi, (kg)") +
+  scale_colour_continuous_sequential(palette = "BluGrn")
+
 
 # calculate fercundity slope
-total.nest.m <- lm(log(sum_n.of.eggs) ~ log(mass), data = nest.dat)
+total.nest.m <- lm(log10(sum_n.of.eggs) ~ log10(mass), data = nest.dat)
 summary(total.nest.m)
 total.nest.m$coefficients
 
+10^coef(total.nest.m)['(Intercept)'] # convert to power function
+
+# calculate fercundity slope 95%
+#total.nest.m95 <- rq(log10(nest.dat$mean_n.of.eggs) ~ log10(nest.dat$mass), tau = c(0.50,0.95))
+#summary(total.nest.m95)
+#total.nest.m95$coefficients
+
 # calculate egg volume slope - from species dataset
-eggvolume.m  <-  lm(log(egg.volume) ~ log(mass), 
+eggvolume.m <- lm(log10(egg.volume) ~ log10(mass), 
                     data = turtle.dat, species == "Chelonia_mydas")
 summary(eggvolume.m)
 
 # calculate egg energy slope
 energy.dat <- read.csv("egg energy.csv") # open egg energy file
 str(energy.dat)
-eggenergy.m <- lm(log(egg.energy) ~ log(egg.mass), 
+eggenergy.m <- lm(log10(egg.energy) ~ log10(egg.mass), 
                   data = energy.dat, species == "Chelonia_mydas")
 summary(eggenergy.m)
 
 # predict expected egg energy for a female of given mass (check with Diego if this is correct)
 # create new empty data.frame
 eggenergy.m2 <- data.frame(matrix(ncol = 2, nrow = 1))
-colnames(eggenergy.m2) <- c("intercept", "slope") # create column nanmes
+colnames(eggenergy.m2) <- c("intercept", "slope") # create column names
 eggenergy.m2$intercept <- coef(eggvolume.m)['(Intercept)'] * 
   coef(eggenergy.m)['(Intercept)'] # calculate intercept
-eggenergy.m2$slope <- coef(eggvolume.m)['log(mass)'] * 
-  coef(eggenergy.m)['log(egg.mass)'] # calculate slope
+eggenergy.m2$slope <- coef(eggvolume.m)['log10(mass)'] * 
+  coef(eggenergy.m)['log10(egg.mass)'] # calculate slope
 
 # calculate total energy output
 greenint.m <- coef(total.nest.m)['(Intercept)'] * eggenergy.m2$intercept
 greenint.m2 <- 10^greenint.m # convert to power function
-greenslope.m <- coef(total.nest.m)['log(mass)'] + eggenergy.m2$slope
+greenslope.m <- coef(total.nest.m)['log10(mass)'] + eggenergy.m2$slope
 
 # calculate predicted isometry and allometry relationship for C. mydas
-length <-  seq(min(nest.dat$mean_length - 10), max(nest.dat$mean_length + 10)) # in cm
-isometry <- (greenint.m2 * length ^ 1) # predicted if isometric, also converted kJ
-hyperallometry <- (greenint.m2 * length ^ greenslope.m) # from results
+mass <-  seq(min(nest.dat$mass - 10), max(nest.dat$mass + 10)) # in cm
+isometry <- (greenint.m2 * mass ^ 1) # predicted if isometric, also converted kJ
+hyperallometry <- (greenint.m2 * mass ^ greenslope.m) # from results
 
 # plot predicted reproductive-energy output (similar to Diego's Fig 1)
-ggplot() + mytheme +
-  geom_smooth(aes(x = length, y = isometry), size = 1, colour = "black", linetype = "dashed") +
-  geom_smooth(aes(x = length, y = hyperallometry), size = 1.5, colour = "#A50026") +
+pred.plot <- ggplot() + mytheme +
+  geom_smooth(aes(x = mass, y = isometry), size = 1.5, colour = "black", linetype = "dashed") +
+  geom_smooth(aes(x = mass, y = hyperallometry), size = 2, colour = "#348781") +
   xlab("Female mass, Mi, (kg)") + ylab("Reproductive output, Ri, (MJ)")
 
-# length per year
-library(plyr) # obtain summary stats
-length <- ddply(nest.dat, "year", summarise,
-                N = length(mean_length),
-                mean = mean(mean_length),
-                sd = sd(mean_length),
-                se = sd/sqrt(N))
-names(length)
+plot_grid(nest.plot, pred.plot, align = "v", axis = "lr", labels = c("A", "B"), ncol = 2)
 
-ggplot(length, aes(x = year, y = mean, fill = year)) + mytheme +
-  geom_smooth(method = lm, colour = "black", linetype = "dashed", alpha = 0.4) +
-  geom_errorbar(aes(ymin = mean-se, ymax = mean+se), width = 0.2) +
+
+## TEMPORAL VARIATION ##--------------------------------------------------------------------------
+# changes in mass mass per year
+library(plyr) # obtain summary stats
+nest.mass <- ddply(nest.dat, "year", summarise,
+                N = length(mass),
+                mean = mean(mass),
+                sd = sd(mass),
+                se = sd/sqrt(N))
+names(nest.mass)
+
+yearmass.plot <- ggplot(nest.mass, aes(x = year, y = mean)) + mytheme +
+  geom_smooth(method = lm, size = 2, col = "#14505C", fill = "#C7E5BE", alpha = 0.4) +
+  geom_errorbar(aes(ymin = mean-se, ymax = mean+se, colour = year), width = 0.2, size = 1) +
   geom_line(linetype = "dashed") +
-  geom_point(shape = 21, size = 3) + ylim(95, 102) + xlim(1992, 2020) +
-  ylab("female CCL (cm)") + xlab("year")
+  geom_point(aes(colour = year), size = 3.5) + xlim(1992, 2020) +
+  ylab("Female mass (kg)") + xlab("Year") +
+  scale_colour_continuous_sequential(palette = "BluGrn")
 
 str(nest.dat)
-length.m <- lm(year ~ mean_length, data = nest.dat)
-summary(length.m)
+yearmass.m <- lm(mass ~ year, data = nest.dat)
+summary(yearmass.m)
+predict(yearmass.m)
 
 # n of eggs vs year
-egg <- ddply(nest.dat, "year", summarise,
+nest.egg <- ddply(nest.dat, "year", summarise,
              N = length(mean_n.of.eggs),
              mean = mean(mean_n.of.eggs),
              sd = sd(mean_n.of.eggs),
              se = sd/sqrt(N))
 
-plot1D <- ggplot(egg, aes(x = year, y = mean, fill = year)) + mytheme +
-  geom_smooth(method = lm, colour = "black", linetype = "dashed", alpha = 0.4) +
-  geom_errorbar(aes(ymin = mean-se, ymax = mean+se), width = 0.2) +
+yearegg.plot <- ggplot(nest.egg, aes(x = year, y = mean)) + mytheme +
+  geom_smooth(method = lm, size = 2, col = "#14505C", fill = "#C7E5BE", alpha = 0.4) +
+  geom_errorbar(aes(ymin = mean-se, ymax = mean+se, colour = year), width = 0.2, size = 1) +
   geom_line(linetype = "dashed") +
-  geom_point(shape = 21, size = 3) + xlim(1992, 2020) +
-  ylab("mean clutch size") + xlab("year")
+  geom_point(aes(colour = year), size = 3.5) + xlim(1992, 2020) +
+  ylab("Mean clutch size") + xlab("Year") +
+  scale_colour_continuous_sequential(palette = "BluGrn")
 
-egg.m <- lm(year ~ sum_n.of.eggs, data = nest.dat)
-summary(egg.m)
+yearegg.m <- lm(mean_n.of.eggs ~ year, data = nest.dat)
+summary(yearegg.m)
 
 # group plots
-plot_grid(plot1A, plot1C, plot1D, labels = c('A','B','C'), nrow = 1, align = "h")
+plot_grid(yearmass.plot, yearegg.plot, labels = c('A','B'), nrow = 2, align = "h")
 
 
 # plot changes in body length per year (distribution plot)
@@ -343,8 +361,11 @@ library(ggridges)
 
 nest.dat2 <- transform(nest.dat, year2 = as.factor(year)) # for geom_density to work
 
-ggplot(nest.dat2, aes(x = mean_length, y = year2, fill = mean_length)) +
-  geom_density_ridges(scale = 1, rel_min_height = 0.01) + mytheme
+ggplot(nest.dat2, aes(x = mass, y = year2, fill = year2)) + mytheme +
+  geom_density_ridges(scale = 1, rel_min_height = 0.01) +
+  xlab("Female mass (kg)") + ylab("Year") +
+  scale_fill_discrete_sequential(palette = "BluGrn")
+
 
 
 ## EXTRA/TEST CODES ##-------------------------------------------------------
