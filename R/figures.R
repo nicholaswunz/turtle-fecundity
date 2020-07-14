@@ -72,3 +72,35 @@ distribution_figure <- function(che_myd_data, rep_out_post) {
   p <- gridExtra::arrangeGrob(a, b, ncol = 2)
   ggpubr::annotate_figure(p, top = ggpubr::text_grob(""))
 }
+
+make_r2s_hist <- function(dest, fig_out_folder, ...) {
+  ggplot2::ggsave(dest, r2s_hist(...), device = "pdf",
+                  width = 6, height = 6, units = "in",
+                  onefile = FALSE)
+}
+
+r2s_hist <- function(plot_data) {
+  r2_iso <- plot_data$r2_vals[plot_data$type == "iso"]
+  r2_hyp <- plot_data$r2_vals[plot_data$type == "hyp"]
+  ggplot(plot_data, aes(x = r2_vals)) +
+    geom_density(data = plot_data, adjust = 2, trim = TRUE,
+                 mapping = aes(x = r2_vals,
+                               y = ..scaled..,
+                               group = type,
+                               colour = type,
+                               linetype = type,
+                               fill = type),
+                 alpha = 0.5,
+                 lwd = 0.8,
+                 show.legend = FALSE) +
+    geom_vline(xintercept = median(r2_iso), linetype = 2,
+               colour = "grey30", size = 0.3) +
+    geom_vline(xintercept = median(r2_hyp), linetype = 2,
+               colour = "grey30", size = 0.3) +
+    scale_colour_manual(values = c("tomato", "dodgerblue2")) +
+    scale_fill_manual(values = c("tomato", "dodgerblue2")) +
+    theme_classic() +
+    labs(y = "Scaled [0,1] posterior density",
+         x = substitute("Posterior " * italic("R"^2))) +
+    scale_y_continuous(limits = c(0, 1.02), expand = c(0, 0))
+}

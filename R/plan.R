@@ -19,15 +19,20 @@ plan <- drake::drake_plan(
   che_myd_energy_model = run_energy_model(energy_data),
   che_myd_energy_params = extract_energy_params(che_myd_energy_model),
   che_myd_clutch_models = run_che_myd_models(che_myd_data),
+  che_myd_clutch_model_iso = run_quantile_regression_iso(che_myd_data, 0.5),
   che_myd_clutch_params = concatenate_posteriors(che_myd_energy_params,
                                                  egg_params,
                                                  che_myd_clutch_models),
   rep_out_post = calc_rep_out_post(che_myd_clutch_params, che_myd_data),
+  models_r2s = compare_r2s(che_myd_data, che_myd_clutch_model_iso,
+                           che_myd_clutch_models),
 
   # figures --------------------------------------------
   fig_out_folder = dir.create("output/figures/",
                               recursive = TRUE,
                               showWarnings = FALSE),
+  fig_3d = make_r2s_hist(file_out("output/figures/fig_3d.pdf"),
+                         fig_out_folder, models_r2s),
   ed_fig_4 = make_distributions(file_out("output/figures/ed_fig_4.pdf"),
                                 fig_out_folder, che_myd_data, rep_out_post)
 )

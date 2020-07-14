@@ -1,3 +1,15 @@
+ss_tot <- function(x) {
+  sum((x - mean(x))^2)
+}
+
+ss_res <- function(x, y) {
+  sum((x - y)^2)
+}
+
+r_sqrd <- function(x, y) {
+  1 - (ss_res(x, y) / ss_tot(x))
+}
+
 read_file <- function(filename, ...) {
   read.csv(filename, header = TRUE, stringsAsFactors = FALSE, ...)
 }
@@ -5,7 +17,7 @@ read_file <- function(filename, ...) {
 clean_turtle_data <- function(...) {
   read_file(...) %>%
     dplyr::filter(species != "") %>%
-    dplyr::mutate(ln_mass_g = log(pred.mass),
+    dplyr::mutate(ln_mass_g = log(pred.mass * 1e3),
                   ln_clutch_size = log(pred.clutch),
                   ln_egg_vol = log(egg.volume),
                   animal = as.factor(species))
@@ -121,9 +133,25 @@ run_quantile_regression <- function(data, quantile) {
             prior = c(brms::prior(normal(0, 10), "b"),
                       brms::prior(normal(0, 10), "Intercept"),
                       brms::prior(student_t(3, 0, 20), "sigma")),
-             chains = 4, cores = 4, iter = 5e3,
-             warmup = 2.5e3, control = list(adapt_delta = 0.999,
-                                            max_treedepth = 15))
+            chains = 4, cores = 4, iter = 5e3,
+            warmup = 2.5e3, control = list(adapt_delta = 0.999,
+                                           max_treedepth = 15))
+}
+
+run_quantile_regression_iso <- function(data, quantile) {
+  data <- data %>%
+    dplyr::mutate(clutch_size = sum_n.of.eggs,
+                  mass_g = mass * 1e3) %>%
+    dplyr::select(clutch_size, mass_g) %>%
+    tidyr::drop_na()
+  brms::brm(brms::bf(clutch_size ~ mass_g, quantile = quantile),
+            data = data, family = asym_laplace(),
+            prior = c(brms::prior(normal(0, 10), "b"),
+                      brms::prior(normal(0, 10), "Intercept"),
+                      brms::prior(student_t(3, 0, 20), "sigma")),
+            chains = 4, cores = 4, iter = 5e3,
+            warmup = 2.5e3, control = list(adapt_delta = 0.999,
+                                           max_treedepth = 15))
 }
 
 run_che_myd_models <- function(data) {
@@ -135,9 +163,9 @@ run_che_myd_models <- function(data) {
                         prior = c(brms::prior(normal(0, 10), "b"),
                                   brms::prior(normal(0, 10), "Intercept"),
                                   brms::prior(student_t(3, 0, 20), "sigma")),
-                         chains = 4, cores = 4, iter = 5e3,
-                         warmup = 2.5e3, control = list(adapt_delta = 0.999,
-                                                        max_treedepth = 15)))
+                        chains = 4, cores = 4, iter = 5e3,
+                        warmup = 2.5e3, control = list(adapt_delta = 0.999,
+                                                       max_treedepth = 15)))
 }
 
 sub_param_data <- function(data, tag) {
@@ -206,4 +234,30 @@ calc_rep_out_post <- function(posteriors, data) {
     yr_summary <- rbind(yr_summary, tmp)
   }
   yr_summary
+}
+
+compare_r2s <- function(data, model_iso, model_hyp) {
+  pos_iso <- brms::posterior_epred(model_iso)
+  pos_hyp <- brms::posterior_epred(model_hyp$quantile_50)
+
+  obs_data <- data %>%
+    dplyr::mutate(mass_g = mass * 1e3) %>%
+    dplyr::group_by(year) %>%
+    dplyr::summarise(fecundity_obs = sum(sum_n.of.eggs))
+
+  r2_iso <- numeric(length = nrow(pos_iso))
+  r2_hyp <- numeric(length = nrow(pos_hyp))
+  for (i in seq_len(nrow(pos_iso))) {
+    tmp <- data.frame(year = data$year,
+                      iso = pos_iso[i, ],
+                      hyp = exp(pos_hyp[i, ])) %>%
+      dplyr::group_by(year) %>%
+      dplyr::summarise(pred_iso = sum(iso),
+                       pred_hyp = sum(hyp))
+    r2_iso[i] <- r_sqrd(obs_data$fecundity_obs, tmp$pred_iso)
+    r2_hyp[i] <- r_sqrd(obs_data$fecundity_obs, tmp$pred_hyp)
+  }
+  data.frame(type = rep(c("iso", "hyp"), each = length(r2_hyp)),
+             r2_vals = c(r2_iso, r2_hyp),
+             stringsAsFactors = FALSE)
 }
