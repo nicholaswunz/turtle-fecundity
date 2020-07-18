@@ -94,7 +94,7 @@ Dataset for the global percentage of protected beaches extracted from Mazaris et
 
 
 # Turtle phylogeny data 
-Phylogenetic matrix of all seven sea tuertle species used for the analysis `data/phylo_cor_all.Rdata`.
+Phylogenetic co-variance matrix of all seven sea tuertle species used for the analysis `data/phylo_cor_all.Rdata`.
 
 
     
