@@ -13,7 +13,7 @@
 *lat:* Latitude decimal geographic coordinate in decimals (north–south position);  
 *lon:* Longitude decimal georeferenced coordinate in decimals (east–west position);  
 *MPA:* Logical binary (YES/NO) whether the coordinates overlay marine protected areas;  
-*MPA2:* Logical binary (YES/NO) whether the coordinates overlay marine protected areas +5 lm buffer zone;  
+*MPA2:* Logical binary (YES/NO) whether the coordinates overlay marine protected areas +5 km buffer zone;  
 *air.temp:* Mean air temperature of the study site during the nesting period (°C);  
 *sand.temp:* Mean nest temperature of the study site during the nesting period (°C);  
 *egg.diameter:* Mean diameter of the egg in millimetres (mm);  
