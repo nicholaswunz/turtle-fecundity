@@ -71,7 +71,7 @@
 
 
 # Dataset for global protected beaches by country
-Dataset for the global percentage of protected beaches extracted from [Mazaris, et al. 2014](sciencedirect.com/science/article/pii/S000632071400113X?casa_token=VW7hq97bFSIAAAAA:0gV4jzKB9krEjDhuJTkdlpP2NEAWxjb9YgxuK4MB0pxfTscTD0hUX90WlVCMMFbflTFiGSE)
+Dataset for the global percentage of protected beaches extracted from [Mazaris et al. 2014](sciencedirect.com/science/article/pii/S000632071400113X?casa_token=VW7hq97bFSIAAAAA:0gV4jzKB9krEjDhuJTkdlpP2NEAWxjb9YgxuK4MB0pxfTscTD0hUX90WlVCMMFbflTFiGSE)
 ## data/world turtle.csv
 ### Variables descriptions  
 *name:* Country name;  
