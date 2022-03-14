@@ -1,0 +1,345 @@
+,name,species,protected_perc,mean_temp,mean_mass,mass_sd,mass_n
+16,Australia,Caretta_caretta,56.25,28.5,102.11664,3.6449012,2
+33,Brazil,Caretta_caretta,50,28.5,106.02723,10.670967,2
+48,Colombia,Caretta_caretta,46.97,27.7,88.21495,,1
+50,Cape Verde,Caretta_caretta,0,,,,
+51,Costa Rica,Caretta_caretta,100,,,,
+52,Cuba,Caretta_caretta,63.16,,,,
+53,Curaçao,Caretta_caretta,20,,,,
+54,Cayman Is.,Caretta_caretta,15,,,,
+56,Cyprus,Caretta_caretta,20,31.94,63.01478,2.1771937,5
+62,Dominican Rep.,Caretta_caretta,50,,,,
+65,Egypt,Caretta_caretta,0,,,,
+67,Spain,Caretta_caretta,0,,,,
+73,France,Caretta_caretta,50,,,,
+85,Greece,Caretta_caretta,50,28.28571,73.4845,6.2024289,7
+93,Honduras,Caretta_caretta,30,,,,
+95,Haiti,Caretta_caretta,0,,,,
+106,Israel,Caretta_caretta,0,,,,
+107,Italy,Caretta_caretta,22.92,,,,
+111,Japan,Caretta_caretta,51.11,25.13333,75.3869,6.8450685,12
+123,Lebanon,Caretta_caretta,0,,,,
+125,Libya,Caretta_caretta,0,,,,
+126,Saint Lucia,Caretta_caretta,33.33,,,,
+128,Sri Lanka,Caretta_caretta,20,29.1,,,
+138,Madagascar,Caretta_caretta,50,,,,
+140,Mexico,Caretta_caretta,56.06,26.6,,,
+145,Myanmar,Caretta_caretta,0,,,,
+149,Mozambique,Caretta_caretta,23.08,28,,,
+150,Mauritania,Caretta_caretta,0,,,,
+151,Montserrat,Caretta_caretta,0,,,,
+156,New Caledonia,Caretta_caretta,50,,,,
+167,Oman,Caretta_caretta,0,34,105.64163,8.0295008,2
+169,Panama,Caretta_caretta,100,,,,
+174,Papua New Guinea,Caretta_caretta,0,28,,,
+195,Sierra Leone,Caretta_caretta,0,,,,
+210,Syria,Caretta_caretta,0,,,,
+211,Turks and Caicos Is.,Caretta_caretta,0,,,,
+220,Tunisia,Caretta_caretta,0,31,77.38379,,1
+221,Turkey,Caretta_caretta,0,30.16667,63.12357,6.1070762,3
+222,Taiwan,Caretta_caretta,0,26,,,
+227,United States,Caretta_caretta,34.62,29.48222,101.42847,9.8331519,17
+231,Venezuela,Caretta_caretta,36,28,,,
+233,U.S. Virgin Is.,Caretta_caretta,100,28.85,,,
+235,Vanuatu,Caretta_caretta,0,,,,
+238,Yemen,Caretta_caretta,100,30.5,,,
+239,South Africa,Caretta_caretta,100,26.25,82.44495,3.9592411,2
+244,Saint Vincent and the Grenadines,Caretta_caretta,0,,,,
+1,Aruba,Chelonia_mydas,0,,,,
+3,Angola,Chelonia_mydas,100,,,,
+4,Anguilla,Chelonia_mydas,0,,,,
+8,United Arab Emirates,Chelonia_mydas,0,,,,
+11,American Samoa,Chelonia_mydas,33.33,,,,
+14,Fr. S. Antarctic Lands,Chelonia_mydas,0,,,,
+15,Antigua and Barb.,Chelonia_mydas,31.03,29.5,,,
+16,Australia,Chelonia_mydas,59.72,28,121.38603,6.5997963,2
+23,Bangladesh,Chelonia_mydas,12.5,,,,
+26,Bahamas,Chelonia_mydas,0,,,,
+30,Belize,Chelonia_mydas,80,,,,
+33,Brazil,Chelonia_mydas,60,29,159.07476,,1
+34,Barbados,Chelonia_mydas,0,,,,
+42,China,Chelonia_mydas,0,,,,
+46,Congo,Chelonia_mydas,0,,,,
+47,Cook Is.,Chelonia_mydas,0,,,,
+48,Colombia,Chelonia_mydas,33.33,29.23333,,,
+49,Comoros,Chelonia_mydas,0,26,147.00837,,1
+51,Costa Rica,Chelonia_mydas,33.33,28.64815,87.85813,25.0955395,6
+52,Cuba,Chelonia_mydas,70.59,,,,
+53,Curaçao,Chelonia_mydas,66.67,,,,
+54,Cayman Is.,Chelonia_mydas,26.32,,,,
+56,Cyprus,Chelonia_mydas,28.57,31.93333,86.18125,5.3319591,6
+60,Dominica,Chelonia_mydas,0,,,,
+62,Dominican Rep.,Chelonia_mydas,66.67,,,,
+64,Ecuador,Chelonia_mydas,80,29,65.557,,1
+65,Egypt,Chelonia_mydas,50,,,,
+66,Eritrea,Chelonia_mydas,0,,,,
+71,Fiji,Chelonia_mydas,0,,,,
+75,Micronesia,Chelonia_mydas,0,28,,,
+80,Ghana,Chelonia_mydas,0,,,,
+82,Gambia,Chelonia_mydas,100,,,,
+83,Guinea-Bissau,Chelonia_mydas,100,,,,
+84,Eq. Guinea,Chelonia_mydas,88.89,,,,
+86,Grenada,Chelonia_mydas,0,,,,
+88,Guatemala,Chelonia_mydas,0,,,,
+89,Guam,Chelonia_mydas,37.5,,,,
+90,Guyana,Chelonia_mydas,0,27.7,121.04074,0,2
+93,Honduras,Chelonia_mydas,16.67,27,,,
+95,Haiti,Chelonia_mydas,0,,,,
+97,Indonesia,Chelonia_mydas,83.33,27.45,,,
+99,India,Chelonia_mydas,2.44,27.5,,,
+103,Iran,Chelonia_mydas,0,31.75,116.52107,16.4488135,2
+108,Jamaica,Chelonia_mydas,0,,,,
+111,Japan,Chelonia_mydas,100,26.75,,,
+114,Kenya,Chelonia_mydas,85.71,27.6,109.72521,,1
+117,Kiribati,Chelonia_mydas,53.33,,,,
+118,St. Kitts and Nevis,Chelonia_mydas,0,,,,
+123,Lebanon,Chelonia_mydas,0,,,,
+126,Saint Lucia,Chelonia_mydas,0,,,,
+128,Sri Lanka,Chelonia_mydas,7.89,29.5,124.2699,,1
+134,St-Martin,Chelonia_mydas,60,,,,
+138,Madagascar,Chelonia_mydas,100,28.8,121.62406,,1
+140,Mexico,Chelonia_mydas,41.28,29.26667,116.76829,33.3270667,5
+141,Marshall Is.,Chelonia_mydas,0,,,,
+145,Myanmar,Chelonia_mydas,25,,,,
+148,N. Mariana Is.,Chelonia_mydas,6.25,30.9,116.15019,,1
+149,Mozambique,Chelonia_mydas,50,28,127.24987,,1
+150,Mauritania,Chelonia_mydas,100,,,,
+151,Montserrat,Chelonia_mydas,0,,,,
+154,Malaysia,Chelonia_mydas,60,29.125,108.42966,11.5750028,3
+156,New Caledonia,Chelonia_mydas,66.67,,,,
+160,Nicaragua,Chelonia_mydas,100,31,,,
+167,Oman,Chelonia_mydas,50,32,97.22021,7.0391187,2
+168,Pakistan,Chelonia_mydas,0,34,,,
+169,Panama,Chelonia_mydas,50,,,,
+170,Pitcairn Is.,Chelonia_mydas,100,,,,
+171,Peru,Chelonia_mydas,0,,,,
+172,Philippines,Chelonia_mydas,25,,,,
+173,Palau,Chelonia_mydas,0,,,,
+174,Papua New Guinea,Chelonia_mydas,12.5,28,,,
+176,Puerto Rico,Chelonia_mydas,50,30.875,,,
+181,Fr. Polynesia,Chelonia_mydas,0,,,,
+187,Saudi Arabia,Chelonia_mydas,0,,,,
+190,Senegal,Chelonia_mydas,100,,,,
+193,Ascension Island,Chelonia_mydas,100,28,150.91944,16.9092555,2
+194,Solomon Is.,Chelonia_mydas,12.5,30,89.69,,1
+196,El Salvador,Chelonia_mydas,80,30,,,
+202,São Tomé and Principe,Chelonia_mydas,0,,,,
+203,Suriname,Chelonia_mydas,NA,29,136.44541,0,2
+208,Sint Maarten,Chelonia_mydas,0,,,,
+209,Seychelles,Chelonia_mydas,10.53,27.5,112.21322,,1
+210,Syria,Chelonia_mydas,0,,,,
+211,Turks and Caicos Is.,Chelonia_mydas,66.67,,,,
+214,Thailand,Chelonia_mydas,66.67,29.25,94.95606,14.747953,2
+218,Tonga,Chelonia_mydas,0,,,,
+219,Trinidad and Tobago,Chelonia_mydas,20,30,,,
+221,Turkey,Chelonia_mydas,16.67,30.16667,,,
+222,Taiwan,Chelonia_mydas,0,26,121.04074,,1
+223,Tanzania,Chelonia_mydas,75,31,148.97985,,1
+227,United States,Chelonia_mydas,35.29,26.66667,102.18662,12.1968413,3
+231,Venezuela,Chelonia_mydas,26.32,28,139.54736,10.0889459,2
+232,British Virgin Is.,Chelonia_mydas,0,,,,
+233,U.S. Virgin Is.,Chelonia_mydas,7.14,28.85,,,
+234,Vietnam,Chelonia_mydas,33.33,,,,
+235,Vanuatu,Chelonia_mydas,1.27,,,,
+238,Yemen,Chelonia_mydas,0,31,99.32779,,1
+239,South Africa,Chelonia_mydas,100,28.8,135.82059,0.4413581,2
+242,Mayotte,Chelonia_mydas,100,27,142.14844,,1
+244,Saint Vincent and the Grenadines,Chelonia_mydas,0,,,,
+247,French Guiana,Chelonia_mydas,50,,,,
+248,Guadeloupe,Chelonia_mydas,57.14,,,,
+249,Martinique,Chelonia_mydas,66.67,,,,
+1,Aruba,Dermochelys_coriacea,0,,,,
+3,Angola,Dermochelys_coriacea,0,,,,
+4,Anguilla,Dermochelys_coriacea,0,,,,
+15,Antigua and Barb.,Dermochelys_coriacea,13.33,29.5,,,
+16,Australia,Dermochelys_coriacea,40,31,471.91282,,1
+21,Benin,Dermochelys_coriacea,0,,,,
+23,Bangladesh,Dermochelys_coriacea,0,,,,
+26,Bahamas,Dermochelys_coriacea,0,,,,
+33,Brazil,Dermochelys_coriacea,100,28.33333,,,
+34,Barbados,Dermochelys_coriacea,0,,,,
+43,Côte d'Ivoire,Dermochelys_coriacea,0,,,,
+44,Cameroon,Dermochelys_coriacea,100,28.8,364.66016,,1
+46,Congo,Dermochelys_coriacea,0,,,,
+48,Colombia,Dermochelys_coriacea,19.67,29,360.72917,,1
+51,Costa Rica,Dermochelys_coriacea,56.25,29,340.5189,24.2179233,6
+52,Cuba,Dermochelys_coriacea,0,,,,
+53,Curaçao,Dermochelys_coriacea,0,,,,
+60,Dominica,Dermochelys_coriacea,0,,,,
+62,Dominican Rep.,Dermochelys_coriacea,60,,,,
+64,Ecuador,Dermochelys_coriacea,0,29,,,
+76,Gabon,Dermochelys_coriacea,60,,,,
+80,Ghana,Dermochelys_coriacea,0,,,,
+83,Guinea-Bissau,Dermochelys_coriacea,100,,,,
+84,Eq. Guinea,Dermochelys_coriacea,100,,,,
+86,Grenada,Dermochelys_coriacea,0,,,,
+88,Guatemala,Dermochelys_coriacea,33.33,,,,
+90,Guyana,Dermochelys_coriacea,0,28.5,415.92598,9.7948138,2
+93,Honduras,Dermochelys_coriacea,50,27,,,
+95,Haiti,Dermochelys_coriacea,0,,,,
+97,Indonesia,Dermochelys_coriacea,37.5,27.45,,,
+99,India,Dermochelys_coriacea,6.9,27.5,,,
+108,Jamaica,Dermochelys_coriacea,0,,,,
+118,St. Kitts and Nevis,Dermochelys_coriacea,0,,,,
+126,Saint Lucia,Dermochelys_coriacea,0,,,,
+128,Sri Lanka,Dermochelys_coriacea,10.34,29,359.07196,24.8320705,2
+134,St-Martin,Dermochelys_coriacea,0,,,,
+140,Mexico,Dermochelys_coriacea,11.11,28,364.66016,,1
+149,Mozambique,Dermochelys_coriacea,37.5,28,,,
+154,Malaysia,Dermochelys_coriacea,0,31,,,
+160,Nicaragua,Dermochelys_coriacea,57.14,31,,,
+169,Panama,Dermochelys_coriacea,36,,,,
+174,Papua New Guinea,Dermochelys_coriacea,9.09,28,462.08018,NA,1
+176,Puerto Rico,Dermochelys_coriacea,4.55,30.5,347.26693,9.9660331,3
+194,Solomon Is.,Dermochelys_coriacea,20,29,,,
+195,Sierra Leone,Dermochelys_coriacea,0,,,,
+196,El Salvador,Dermochelys_coriacea,40,30,,,
+202,São Tomé and Principe,Dermochelys_coriacea,0,,,,
+203,Suriname,Dermochelys_coriacea,57.14,27,422.85196,NA,1
+208,Sint Maarten,Dermochelys_coriacea,0,,,,
+213,Togo,Dermochelys_coriacea,0,,,,
+214,Thailand,Dermochelys_coriacea,0,29.25,,,
+219,Trinidad and Tobago,Dermochelys_coriacea,12.5,30,380.68078,,1
+227,United States,Dermochelys_coriacea,33.33,28.84952,,,
+231,Venezuela,Dermochelys_coriacea,32.26,28,,,
+232,British Virgin Is.,Dermochelys_coriacea,0,,,,
+233,U.S. Virgin Is.,Dermochelys_coriacea,9.09,27.7,393.84289,NA,1
+234,Vietnam,Dermochelys_coriacea,0,,,,
+235,Vanuatu,Dermochelys_coriacea,0,,,,
+239,South Africa,Dermochelys_coriacea,100,26.25,470.10769,14.6336477,2
+244,Saint Vincent and the Grenadines,Dermochelys_coriacea,0,,,,
+247,French Guiana,Dermochelys_coriacea,75,,,,
+248,Guadeloupe,Dermochelys_coriacea,75.86,,,,
+249,Martinique,Dermochelys_coriacea,17.65,,,,
+1,Aruba,Eretmochelys_imbricata,0,,,,
+4,Anguilla,Eretmochelys_imbricata,0,,,,
+8,United Arab Emirates,Eretmochelys_imbricata,16.67,,,,
+14,Fr. S. Antarctic Lands,Eretmochelys_imbricata,0,,,,
+15,Antigua and Barb.,Eretmochelys_imbricata,30.61,29.5,,,
+16,Australia,Eretmochelys_imbricata,21.43,29.12,56.93786,7.1529796,5
+23,Bangladesh,Eretmochelys_imbricata,0,,,,
+26,Bahamas,Eretmochelys_imbricata,0,,,,
+30,Belize,Eretmochelys_imbricata,58.62,,,,
+33,Brazil,Eretmochelys_imbricata,66.67,28,88.66368,16.9356852,3
+34,Barbados,Eretmochelys_imbricata,0,30,64.67922,,1
+43,Côte d'Ivoire,Eretmochelys_imbricata,0,,,,
+48,Colombia,Eretmochelys_imbricata,31.48,29.23333,,,
+51,Costa Rica,Eretmochelys_imbricata,50,28.8,62.27503,1.196269,2
+52,Cuba,Eretmochelys_imbricata,83.33,,,,
+53,Curaçao,Eretmochelys_imbricata,50,,,,
+54,Cayman Is.,Eretmochelys_imbricata,0,,,,
+60,Dominica,Eretmochelys_imbricata,0,,,,
+62,Dominican Rep.,Eretmochelys_imbricata,69.23,,,,
+64,Ecuador,Eretmochelys_imbricata,50,29,76.30064,,1
+65,Egypt,Eretmochelys_imbricata,33.33,,,,
+66,Eritrea,Eretmochelys_imbricata,0,,,,
+71,Fiji,Eretmochelys_imbricata,16.67,,,,
+75,Micronesia,Eretmochelys_imbricata,0,28,,,
+76,Gabon,Eretmochelys_imbricata,100,,,,
+81,Guinea,Eretmochelys_imbricata,0,,,,
+83,Guinea-Bissau,Eretmochelys_imbricata,100,,,,
+84,Eq. Guinea,Eretmochelys_imbricata,66.67,,,,
+86,Grenada,Eretmochelys_imbricata,0,,,,
+88,Guatemala,Eretmochelys_imbricata,100,,,,
+90,Guyana,Eretmochelys_imbricata,0,27.85,67.56439,4.0802449,2
+93,Honduras,Eretmochelys_imbricata,23.81,27,,,
+95,Haiti,Eretmochelys_imbricata,0,,,,
+97,Indonesia,Eretmochelys_imbricata,22.22,27.45,,,
+99,India,Eretmochelys_imbricata,3.28,27.5,,,
+101,Br. Indian Ocean Ter.,Eretmochelys_imbricata,100,,,,
+103,Iran,Eretmochelys_imbricata,25,30.77778,42.811,2.9121277,3
+108,Jamaica,Eretmochelys_imbricata,29.51,,,,
+111,Japan,Eretmochelys_imbricata,0,25.60667,,,
+114,Kenya,Eretmochelys_imbricata,100,27.6,,,
+118,St. Kitts and Nevis,Eretmochelys_imbricata,0,,,,
+124,Liberia,Eretmochelys_imbricata,50,,,,
+126,Saint Lucia,Eretmochelys_imbricata,4.17,,,,
+128,Sri Lanka,Eretmochelys_imbricata,23.08,29,48.33031,,1
+134,St-Martin,Eretmochelys_imbricata,60,,,,
+138,Madagascar,Eretmochelys_imbricata,100,,,,
+139,Maldives,Eretmochelys_imbricata,0,,,,
+140,Mexico,Eretmochelys_imbricata,61.67,30.625,82.26248,1.4551551,8
+149,Mozambique,Eretmochelys_imbricata,66.67,28,,,
+151,Montserrat,Eretmochelys_imbricata,0,,,,
+154,Malaysia,Eretmochelys_imbricata,66.67,30,62.24412,,1
+160,Nicaragua,Eretmochelys_imbricata,62.5,31,61.04909,0.7535997,2
+167,Oman,Eretmochelys_imbricata,11.11,33.66667,50.36215,2.9395908,3
+169,Panama,Eretmochelys_imbricata,38.46,,,,
+172,Philippines,Eretmochelys_imbricata,20,,,,
+173,Palau,Eretmochelys_imbricata,60.71,,,,
+174,Papua New Guinea,Eretmochelys_imbricata,0,28,,,
+176,Puerto Rico,Eretmochelys_imbricata,28.57,32,70.7775,,1
+182,Qatar,Eretmochelys_imbricata,0,30.20214,45.53429,,1
+187,Saudi Arabia,Eretmochelys_imbricata,0,,,,
+188,Sudan,Eretmochelys_imbricata,0,35,39.4618,,1
+190,Senegal,Eretmochelys_imbricata,50,,,,
+194,Solomon Is.,Eretmochelys_imbricata,100,29,63.4592,3.7738658,3
+196,El Salvador,Eretmochelys_imbricata,42.86,30,62.53437,3.9224639,2
+202,São Tomé and Principe,Eretmochelys_imbricata,0,,,,
+203,Suriname,Eretmochelys_imbricata,100,28,,,
+208,Sint Maarten,Eretmochelys_imbricata,0,,,,
+209,Seychelles,Eretmochelys_imbricata,13.21,28.26667,66.84528,6.6078961,3
+211,Turks and Caicos Is.,Eretmochelys_imbricata,0,,,,
+214,Thailand,Eretmochelys_imbricata,0,29.25,,,
+219,Trinidad and Tobago,Eretmochelys_imbricata,19.23,30,,,
+222,Taiwan,Eretmochelys_imbricata,0,26,,,
+223,Tanzania,Eretmochelys_imbricata,100,31,,,
+227,United States,Eretmochelys_imbricata,40,28.84952,,,
+231,Venezuela,Eretmochelys_imbricata,31.25,28,,,
+232,British Virgin Is.,Eretmochelys_imbricata,2.08,,,,
+233,U.S. Virgin Is.,Eretmochelys_imbricata,22.73,30,72.36099,2.9346498,2
+234,Vietnam,Eretmochelys_imbricata,66.67,,,,
+235,Vanuatu,Eretmochelys_imbricata,2.44,,,,
+237,Samoa,Eretmochelys_imbricata,0,,,,
+238,Yemen,Eretmochelys_imbricata,0,30,43.84594,,1
+242,Mayotte,Eretmochelys_imbricata,100,27,,,
+244,Saint Vincent and the Grenadines,Eretmochelys_imbricata,0,,,,
+247,French Guiana,Eretmochelys_imbricata,100,,,,
+248,Guadeloupe,Eretmochelys_imbricata,55.56,,,,
+249,Martinique,Eretmochelys_imbricata,11.54,,,,
+140,Mexico,Lepidochelys_kempii,28,29.75,47.39784,3.3964519,4
+227,United States,Lepidochelys_kempii,16.67,25,36.84475,6.5686743,2
+3,Angola,Lepidochelys_olivacea,0,,,,
+16,Australia,Lepidochelys_olivacea,25,31.1,37.3,,1
+21,Benin,Lepidochelys_olivacea,0,,,,
+23,Bangladesh,Lepidochelys_olivacea,30.77,,,,
+33,Brazil,Lepidochelys_olivacea,66.67,29,40.11277,,1
+35,Brunei,Lepidochelys_olivacea,0,,,,
+43,Côte d'Ivoire,Lepidochelys_olivacea,14.29,,,,
+44,Cameroon,Lepidochelys_olivacea,0,28.8,,,
+46,Congo,Lepidochelys_olivacea,14.29,,,,
+48,Colombia,Lepidochelys_olivacea,60,31,32.41432,,1
+51,Costa Rica,Lepidochelys_olivacea,35.71,28.375,32.59001,1.2630858,7
+64,Ecuador,Lepidochelys_olivacea,20,29,,,
+76,Gabon,Lepidochelys_olivacea,75,,,,
+80,Ghana,Lepidochelys_olivacea,0,,,,
+83,Guinea-Bissau,Lepidochelys_olivacea,100,,,,
+84,Eq. Guinea,Lepidochelys_olivacea,77.78,,,,
+88,Guatemala,Lepidochelys_olivacea,0,,,,
+90,Guyana,Lepidochelys_olivacea,0,28.02,,,
+93,Honduras,Lepidochelys_olivacea,89.47,27,33.95072,0,2
+97,Indonesia,Lepidochelys_olivacea,33.33,27.45,,,
+99,India,Lepidochelys_olivacea,3.77,27.5,37.04614,2.4224396,3
+114,Kenya,Lepidochelys_olivacea,33.33,27.6,,,
+124,Liberia,Lepidochelys_olivacea,0,,,,
+128,Sri Lanka,Lepidochelys_olivacea,2.94,29,31.17269,,1
+140,Mexico,Lepidochelys_olivacea,11.39,30.7,31.76476,1.9357763,3
+145,Myanmar,Lepidochelys_olivacea,0,,,,
+149,Mozambique,Lepidochelys_olivacea,100,28,,,
+154,Malaysia,Lepidochelys_olivacea,10,29.78571,,,
+160,Nicaragua,Lepidochelys_olivacea,55.56,31,,,
+167,Oman,Lepidochelys_olivacea,0,34,38.55394,,1
+168,Pakistan,Lepidochelys_olivacea,0,34,,,
+169,Panama,Lepidochelys_olivacea,0,,,,
+171,Peru,Lepidochelys_olivacea,0,,,,
+195,Sierra Leone,Lepidochelys_olivacea,0,,,,
+196,El Salvador,Lepidochelys_olivacea,57.14,30,,,
+202,São Tomé and Principe,Lepidochelys_olivacea,0,,,,
+203,Suriname,Lepidochelys_olivacea,NA,27,35.70495,NA,1
+213,Togo,Lepidochelys_olivacea,0,,,,
+214,Thailand,Lepidochelys_olivacea,100,29.25,,,
+219,Trinidad and Tobago,Lepidochelys_olivacea,0,30,,,
+234,Vietnam,Lepidochelys_olivacea,42.86,,,,
+235,Vanuatu,Lepidochelys_olivacea,0,,,,
+247,French Guiana,Lepidochelys_olivacea,33.33,,,,
+16,Australia,Natator_depressus,72.06471,29.35,70.53131,4.8060643,13
