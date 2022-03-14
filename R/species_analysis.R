@@ -41,7 +41,7 @@ setwd('repository space')
 
 # Load dataset
 meta_data <- read.csv("meta_raw_data.csv")
-egg_data  <- read.csv("egg_energy_data2.csv")
+egg_data  <- read.csv("egg_energy_data.csv")
 phylo_cor <- readRDS("phylo_cor.rds")
 phyo_tree <- readRDS("phyo_tree.rds")
 
