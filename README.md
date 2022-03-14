@@ -3,6 +3,25 @@ This repository contains code and data needed to reproduce the article:
 
 **Wu N. C., Rusli M. U., Broderick A. C., & Barneche D. R.** (In review) Scaling of sea turtle reproduction reconciles theory and conservation strategies at the global scale. *Global Ecology and Biogeography*,
 
+**Raw data**
+- `meta_raw_data.csv`   - Raw data for extracted sea turtle body size and reproductive parameters used for the analysis.
+- `egg_energy_data.csv` - Raw data for extracted eggs-size and egg-energy used for the analysis.
+- `phylo_cor.rds`       - Phylogenetic co-variance matrix for the analysis.
+- `phylo_tree.rds`      - Phylogenetic tree to used to produce Figure 1c phylogeny.
+
+- `world_turtle.csv`    - Raw data for the percentage protected beaches by country per species used for the analysis.
+- `world_turtle_grouped.csv` - Raw data for `world_turtle.csv` in long format.
+
+- `nesting_year.csv`    - Raw data for the Redang Island turtle survey (1993-2019) used for the analysis.
+
+**R codes**
+- `species_analysis.R` - Code to clean and analyse data, and produce figures of all sea turtle species from the systematic search.
+- `spatial_analysis.R` - Code to clean and analyse data, and produce Figure 2 - Global distribution of sea turtle nesting sites with current protected areas by countries.
+- `green_turtle_analysis.R` - Code to clean and analyse data, and produce figures for the Redang Island turtle survey (1993-2019). 
+
+**Extra files**
+- `xxx.PDF` - Supplementary file includes statistical outcomes, additional figures, and descriptions from the main document.
+
 ## Abstract
 **Aim**: Body size of marine megafauna can influence population dynamics because larger females have disproportionally greater reproductive output. We explored how this size scaling relationship can affect predictions of population-size structure in nesting sea turtles by combining a phylogenetically controlled meta-analysis with a long-term field nesting survey. 
 **Location**: Global (meta-analysis), and Malaysia (field survey).  
