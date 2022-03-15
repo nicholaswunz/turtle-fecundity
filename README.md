@@ -10,6 +10,7 @@ This repository contains code and data needed to reproduce the article:
 
 
 **When using the data or code from this project, please cite it as:**
+
 **Wu N. C., Rusli M. U., Broderick A. C., & Barneche D. R** (2022) nicholaswunz/turtle-fecundity: Accepted version of paper data and code of manuscript: Scaling of sea turtle reproduction reconciles theory and conservation strategies at the global scale (Global Ecology and Biogeography). *Zenodo*. DOI: [![DOI](https://zenodo.org/badge/201723328.svg)](https://zenodo.org/badge/latestdoi/201723328)
 
 **Raw data**
