@@ -1,7 +1,16 @@
 # Sea turtle reproductive-energy output
+[![license](https://img.shields.io/badge/license-MIT%20+%20file%20LICENSE-lightgrey.svg)](https://choosealicense.com/)
+![Open Source
+Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)
+
+
 This repository contains code and data needed to reproduce the article:
 
 **Wu N. C., Rusli M. U., Broderick A. C., & Barneche D. R.** (In review) Scaling of sea turtle reproduction reconciles theory and conservation strategies at the global scale. *Global Ecology and Biogeography*,
+
+
+**When using the data or code from this project, please cite it as:**
+**Wu N. C., Rusli M. U., Broderick A. C., & Barneche D. R** (2022) nicholaswunz/turtle-fecundity: Accepted version of paper data and code of manuscript: Scaling of sea turtle reproduction reconciles theory and conservation strategies at the global scale (Global Ecology and Biogeography). *Zenodo*. DOI: [![DOI](https://zenodo.org/badge/201723328.svg)](https://zenodo.org/badge/latestdoi/201723328)
 
 **Raw data**
 - `meta_raw_data.csv`   - Raw data for extracted sea turtle body size and reproductive parameters used for the analysis.
@@ -32,3 +41,7 @@ This repository contains code and data needed to reproduce the article:
 **Main conclusions**: Understanding ecosystem function and conservation effort requires accurate predictions of population trends. Our findings highlight the necessity to account for scaling effects of body size in predicting anthropogenically-mediated population shifts, as well as the need to protect large females in order to facilitate effective population replenishment.
 
 **Keywords:** allometry, body size, marine megafauna, metabolic theory, reproductive output
+
+
+## License
+This repository is provided by the authors under the MIT License ([MIT](http://opensource.org/licenses/MIT)).
