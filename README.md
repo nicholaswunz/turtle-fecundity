@@ -30,7 +30,7 @@ This repository contains code and data needed to reproduce the article:
 - `green_turtle_analysis.R` - Code to clean and analyse data, and produce figures for the Redang Island turtle survey (1993-2019). 
 
 **Extra files**
-- `xxx.PDF` - Supplementary file includes statistical outcomes, additional figures, and descriptions from the main document.
+- `geb13502-sup-0001-supinfo.PDF` - Supplementary file includes statistical outcomes, additional figures, and descriptions from the main document.
 
 ## Abstract
 **Aim**: Body size of marine megafauna can influence population dynamics because larger females have disproportionally greater reproductive output. We explored how this size scaling relationship can affect predictions of population-size structure in nesting sea turtles by combining a phylogenetically controlled meta-analysis with a long-term field nesting survey.  
