@@ -6,7 +6,7 @@ Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)
 
 This repository contains code and data needed to reproduce the article:
 
-**Wu N. C., Rusli M. U., Broderick A. C., & Barneche D. R.** (Accepted) Scaling of sea turtle reproduction reconciles theory and conservation strategies at the global scale. *Global Ecology and Biogeography*, DOI: [![DOI](https://zenodo.org/badge/DOI/10.1111/geb.13502.svg)](https://doi.org/10.1111/geb.13502)
+**Wu N. C., Rusli M. U., Broderick A. C., & Barneche D. R.** (2022) Scaling of sea turtle reproduction reconciles theory and conservation strategies at the global scale. *Global Ecology and Biogeography*, DOI: [![DOI](https://zenodo.org/badge/DOI/10.1111/geb.13502.svg)](https://doi.org/10.1111/geb.13502)
 
 
 **When using the data or code from this project, please cite it as:**
