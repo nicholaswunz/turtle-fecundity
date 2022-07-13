@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+authors:
+  - family-names: "Wu"
+    given-names: "Nicholas C."
+    orcid: "https://orcid.org/0000-0002-7130-1279"
+  - family-names: "Rusli"
+    given-names: "Mohd Uzair"
+    orcid: "https://orcid.org/0000-0002-2221-1541"
+  - family-names: "Broderick"
+    given-names: "Annette C."
+    orcid: "https://orcid.org/0000-0003-1444-1782"
+  - family-names: "Barneche"
+    given-names: "Diego R."
+    orcid: "https://orcid.org/0000-0002-4568-2362"
+title: "Size scaling of sea turtle reproduction may reconcile fundamental ecology and conservation strategies at the global scale"
+version: 1.0.0
+date-released: 2022-05-15
+url: "https://github.com/nicholaswunz/turtle-fecundity"
